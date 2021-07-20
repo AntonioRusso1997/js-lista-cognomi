@@ -3,17 +3,11 @@
 3. stampa la lista ordinata alfabeticamente
 4. scrivi anche la posizione "umana" (partendo da 1) della lista in cui il nuovo utente si trova. */
 
-// Creo le variabili
+// Creo l'array
 var surnames = ["Bianchi", "Neri", "Rossi", "Verdi", "Gialli"];
-var i = 0;
 
-// Creo Ciclo per inserire il cognome dell'utente
- while (i < 1) 
-{
-    var insertSurname = prompt("Inserisci il cognome.");
-    surnames.push(insertSurname);
-    i++;
-}
+var insertSurname = prompt("Inserisci il cognome.");
+surnames.push(insertSurname);
 
 // Stampo l'array nell'ordine "base".
 console.log(surnames);
