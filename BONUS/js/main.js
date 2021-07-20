@@ -36,3 +36,4 @@ console.log("Sei al " + ((surnamesSorted.indexOf(insertSurname)) + 1) + "° post
 // Stampo su HTML
 document.getElementById("list").innerHTML = stamp;
 document.getElementById("sortedList").innerHTML = stampSorted;
+document.getElementById("posizione").innerHTML = ((surnamesSorted.indexOf(insertSurname)) + 1) + "°";
