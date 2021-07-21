@@ -9,6 +9,7 @@ var stamp = "";
 var stampSorted = "";
 
 var insertSurname = prompt("Inserisci il cognome.");
+insertSurname = insertSurname.charAt(0).toUpperCase() + insertSurname.slice(1).toLowerCase();
 surnames.push(insertSurname);
 
 // Stampo l'array nell'ordine "base".
